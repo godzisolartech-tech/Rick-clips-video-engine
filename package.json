@@ -1,0 +1,18 @@
+{
+  "name": "rick-clips-video-engine",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "remotion studio src/index.jsx",
+    "render": "remotion render src/index.jsx RickClipVideo out/video.mp4"
+  },
+  "dependencies": {
+    "remotion": "4.0.544",
+    "@remotion/cli": "4.0.544",
+    "@remotion/three": "4.0.544",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "@react-three/fiber": "9.2.0",
+    "three": "0.178.0"
+  }
+}
